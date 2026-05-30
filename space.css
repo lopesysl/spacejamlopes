@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #05041b;
+    background-image: url(fundo-de-espaco-com-estrelas-ilustracao-vetorial_97886-319.avif);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 70px;
+
+    background-color: #040314;
+
+}
+
+.logoHeader{
+    height: 100px;
+    cursor: pointer;
+}
+
+
+
+.botoes{
+    display: flex;
+    gap: 55px;
+}
+
+.botoes a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    transition: 0.2s linear;
+    display: inline-block;
+}
+
+.botoes a:hover{
+    color: #0800ff;
+    transform: scale(1.1);
+}
+
+
+
+.icones{
+    display: flex;
+    gap: 25px;
+    color: white;
+    height: 25px;
+    cursor: pointer;
+}
+
+.icones .img{
+    transition: 0.2s linear;
+}
+
+.icones img:hover{
+    transform: scale(1.15);
+}
+
+.banner{
+    width: 100%;
+    height: 50vh;
+}
+
+.banner img{
+    height: 90vh;
+}
+
+
+.banner{
+    width: 100%;
+    height: 150px;
+      display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    height: 240px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.banner a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    transition: 0.2s linear;
+  
+}
+
+.banner a:hover{
+    
+    transform: scale(1.1);
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: auto;
+    height: 400px;
+    background-color: rgb(76, 76, 77);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    border-radius: 20px;
+    
+}
+
+.card {
+    background-color: rgb(124, 124, 124);
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-15px);
+}
+
+
+
+.card p{
+    text-align: center;
+    color: rgb(218, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.leb{
+    position: absolute;
+    top: 36px;
+}
+
+
+
+
+
+
+
