@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #05041b;
+    font-family: "Manrope", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 70px;
+
+    background-color: #040314;
+
+}
+
+.logoHeader{
+    height: 100px;
+    cursor: pointer;
+}
+
+
+
+.botoes{
+    display: flex;
+    gap: 35px;
+}
+
+.botoes a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    transition: 0.2s linear;
+    display: inline-block;
+}
+
+.botoes a:hover{
+    color: #261fa9;
+    transform: scale(1.1);
+}
+
+
+
+.icones{
+    display: flex;
+    gap: 25px;
+    color: white;
+    height: 25px;
+    cursor: pointer;
+}
+
+.icones .img{
+    transition: 0.2s linear;
+}
+
+.icones img:hover{
+    transform: scale(1.15);
+}
+
+.banner{
+    width: 100%;
+    height: 70vh;
+
+    background-image: url("img/banner.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin-top: 30px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.produtos{
+    text-align: center;
+    padding: 50px;
+    background-color: #02011d;
+}
+
+.produtos h2{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    width: 30%;
+    min-width: 250px;
+
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(189, 115, 12, 0.884);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.card h3{
+    margin: 10px 0;
+}
+
+.card p{
+    color: orange;
+    font-weight: bold;
+}
+
+.card button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #0a0a23;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 2px solid rgb(255, 255, 255);
+}

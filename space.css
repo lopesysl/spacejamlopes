@@ -81,6 +81,7 @@ header{
     height: 150px;
       display: flex;
     justify-content: center;
+    
 }
 
 .banner img{
@@ -153,7 +154,14 @@ header{
 }
 
 
-
+footer{
+    background-color: #0a0a23;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 2px solid rgb(255, 255, 255);
+}
 
 
 
